@@ -2,6 +2,9 @@ import './App.css';
 import UilReact from '@iconscout/react-unicons/icons/uil-react'
 import TopButtons from './components/TopButtons';
 import Inputs from './components/Inputs';
+import TimeandLocation from './components/TimeandLocation';
+import TemperatureAndDetails from './components/TemperatureAndDetails';
+import Forecast from './components/Forecast';
 
 function App() {
   return (
@@ -9,7 +12,11 @@ function App() {
       <TopButtons />
       <Inputs />
 
+      <TimeandLocation />
+      <TemperatureAndDetails />
 
+      <Forecast title="hourly  forecast" />
+      <Forecast title="daily  forecast" />
     </div>
 
       
