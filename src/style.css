@@ -338,9 +338,10 @@ html, body{
     left: 0;
     z-index: -1;
 
-svg{
+:is(svg) {
     display: none;
 }
+      
 
 .gradients-container{
     filter: url(#goo) blur(48px);

@@ -1,92 +1,100 @@
- <!DOCTYPE html>
- <html lang="en">
-
- <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
 
- </head>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
- <body>
-
+  <body>
     <div class="container">
-        <div class="search-box">
-            <i class='bx bxs-map'></i>
-            <input type="text" placeholder="enter a location">
-            <button class="bx bx-search"></button>
-        </div>
+      <div class="search-box">
+        <i class="bx bxs-map"></i>
+        <input type="text" placeholder="enter a location" />
+        <button class="bx bx-search"></button>
+      </div>
 
-        <p class="city-hide">city hide</p>
+      <p class="city-hide">city hide</p>
 
-        <div class="weather-box">
-            <div class="box">
-                <div class="info-weather">
-                    <div class="weather">
-                        <img src="images/cloud.png">
-                        <p class="temperature">0<span>°C</span></p>
-                        <p class="description">Broken Clouds</p>
-                    </div>
-                </div>
+      <div class="weather-box">
+        <div class="box">
+          <div class="info-weather">
+            <div class="weather">
+              <img src="/images/cloud.png" />
+              <p class="temperature">0<span>°F</span></p>
+              <p class="description">Broken Clouds</p>
             </div>
-        </div>
-
-        <div class="weather-details">
-            <div class="humidity">
-                <i class='bx bx-water' ></i>
-                <div class="text">
-                    <div class="info-humidity">
-                        <span>0%</span>
-                    </div>
-                    <p>Humidity</p>
-                </div>
-            </div>
-
-            <div class="wind">
-                <i class='bx bx-wind'></i>
-                <div class="text">
-                    <div class="info-wind">
-                        <span>0Km/h</span>
-                    </div>
-                    <p>Wind Speed</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="not-found">
-            <div class="box">
-                <img src="images/404.png" alt="Error Background">
-                <p>Oops! Location not found!</p>
-            </div>
-        </div>
-    </div>
-
-      <div class="gradient-bg">
-        <svg xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <filter id="goo">
-              <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
-              <feBlend in="SourceGraphic" in2="goo" />
-            </filter>
-          </defs>
-        </svg>
-        <div class="gradients-container">
-          <div class="g1"></div>
-          <div class="g2"></div>
-          <div class="g3"></div>
-          <div class="g4"></div>
-          <div class="g5"></div>
-          <div class="interactive"></div>
+          </div>
         </div>
       </div>
-      <script type="module" src="/src/main.ts"></script>
-    <script src="script.js"></script>
- </body>
- </html>
+
+      <div class="weather-details">
+        <div class="humidity">
+          <i class="bx bx-water"></i>
+          <div class="text">
+            <div class="info-humidity"><span>0%</span></div>
+            <p>Humidity</p>
+          </div>
+        </div>
+
+        <div class="wind">
+          <i class="bx bx-wind"></i>
+          <div class="text">
+            <div class="info-wind"><span>0Km/h</span></div>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="not-found">
+        <div class="box">
+          <img src="/images/404.png" alt="Error Background" />
+          <p>Oops! Location not found!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="gradient-bg">
+      <svg xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur
+              in="SourceGraphic"
+              stdDeviation="10"
+              result="blur"
+            />
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+              result="goo"
+            />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+        </defs>
+      </svg>
+      <div class="gradients-container">
+        <div class="g1"></div>
+        <div class="g2"></div>
+        <div class="g3"></div>
+        <div class="g4"></div>
+        <div class="g5"></div>
+        <div class="interactive"></div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
