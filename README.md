@@ -42,7 +42,7 @@ A sleek weather forecast app that lets you check the current weather by city. Po
    ```bash
    npm install
 
-3.Run the dev server:
+3. Run the dev server:
    ```bash
    npm run dev
 
