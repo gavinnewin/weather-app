@@ -4,7 +4,7 @@ let curX = 0;
 let curY = 0;
 let tgX = 0;
 let tgY = 0;
-//hi
+
 window.addEventListener('DOMContentLoaded', () => {
   const interBubble = document.querySelector('.interactive') as HTMLDivElement;
   function move() {
@@ -69,23 +69,23 @@ window.addEventListener('DOMContentLoaded', () => {
 
         switch (json.weather[0].main) {
           case 'Clear':
-            image.src = '/images/clear.png';
+            image.src = '/weather-app/images/clear.png';
             break;
           case 'Rain':
-            image.src = '/images/rain.png';
+            image.src = '/weather-app/images/rain.png';
             break;
           case 'Snow':
-            image.src = '/images/snow.png';
+            image.src = '/weather-app/images/snow.png';
             break;
           case 'Clouds':
-            image.src = '/images/cloud.png';
+            image.src = '/weather-app/images/cloud.png';
             break;
           case 'Mist':
           case 'Haze':
-            image.src = '/images/mist.png';
+            image.src = '/weather-app/images/mist.png';
             break;
           default:
-            image.src = '/images/cloud.png';
+            image.src = '/weather-app/images/cloud.png';
         }
 
         const tempInFahrenheit = (json.main.temp * 9) / 5 + 32;
