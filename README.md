@@ -37,13 +37,12 @@ A sleek weather forecast app that lets you check the current weather by city. Po
    ```bash
    git clone https://github.com/your-username/weather-app.git
    cd weather-app
-```
-2. Install dependencies:
 
-```bash
-npm install
-```
+2. Install dependencies:
+   ```bash
+   npm install
+
 3.Run the dev server:
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+
