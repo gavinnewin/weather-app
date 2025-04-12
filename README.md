@@ -25,7 +25,7 @@ A responsive and visually engaging weather app that shows live weather condition
 - [Vite](https://vitejs.dev/)
 - TypeScript
 - HTML & CSS
-- OpenWeatherMap API(https://openweathermap.org/api)
+- OpenWeatherMap API (https://openweathermap.org/api)
 - Boxicons + Google Fonts
 
 ---
@@ -54,4 +54,4 @@ A responsive and visually engaging weather app that shows live weather condition
 ![Search Example](./public/images/weather.png)
 
 ### Not Found 
-![Modal View](./screenshots/error.png)
+![Not Found View](./public/images/error.png)
