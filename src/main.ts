@@ -4,7 +4,7 @@ let curX = 0;
 let curY = 0;
 let tgX = 0;
 let tgY = 0;
-
+//hi
 window.addEventListener('DOMContentLoaded', () => {
   const interBubble = document.querySelector('.interactive') as HTMLDivElement;
   function move() {
