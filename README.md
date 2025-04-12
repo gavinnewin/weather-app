@@ -1,12 +1,12 @@
 # 🌦️ Weather App
 
-A sleek weather forecast app that lets you check the current weather by city. Powered by the OpenWeatherMap API and built with Vite + TypeScript.
+A responsive and visually engaging weather app that shows live weather conditions with smooth background animations. Built using **Vite**, **TypeScript**, and the **OpenWeatherMap API**.
 
 ## 📸 Demo
 
 [Live Demo](https://gavinnewin.github.io/weather-app/)
 
-![Weather App Screenshot](./public/images/cloud.png)
+![Weather App Screenshot](./public/images/home-page.png)
 
 ---
 
@@ -25,9 +25,8 @@ A sleek weather forecast app that lets you check the current weather by city. Po
 - [Vite](https://vitejs.dev/)
 - TypeScript
 - HTML & CSS
-- OpenWeatherMap API
-- Boxicons
-- Google Fonts
+- OpenWeatherMap API(https://openweathermap.org/api)
+- Boxicons + Google Fonts
 
 ---
 
@@ -46,3 +45,13 @@ A sleek weather forecast app that lets you check the current weather by city. Po
    ```bash
    npm run dev
 
+## 📷 Screenshots
+
+### Homepage
+![Main View](./public/images/home-page.png)
+
+### Search Functionality
+![Search Example](./public/images/weather.png)
+
+### Not Found 
+![Modal View](./screenshots/error.png)
