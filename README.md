@@ -12,11 +12,11 @@ A responsive and visually engaging weather app that shows live weather condition
 
 ## 🌟 Features
 
-- 🔍 Search any city for live weather data
-- 🌡️ Displays temperature (°F), weather conditions, humidity, and wind speed
-- 🖼️ Dynamic weather icons that change with conditions
-- ❌ Error handling for unknown locations
-- 🎨 Animated gradient background that follows your mouse
+- Search any city for live weather data
+- Displays temperature (°F), weather conditions, humidity, and wind speed
+- Dynamic weather icons that change with conditions
+- Error handling for unknown locations
+- Animated gradient background that follows your mouse
 
 ---
 
